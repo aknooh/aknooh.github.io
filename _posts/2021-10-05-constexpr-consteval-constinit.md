@@ -6,6 +6,7 @@ categories: posts
 excerpt: "Exploring C++20"
 tags: [C++, C++20, programming, constexpr, consteval, constinit ]
 comments: true
+published: false
 share: true
 ---
 

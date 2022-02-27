@@ -155,7 +155,7 @@ $ mkdir -p /usr/local/opengrok/ /usr/local/opengrok/src /usr/local/opengrok/data
 
 2) Clone the git repositories into `src`
 {% highlight bash %}
-$ cd /usr/loca/opengrok/src
+$ cd /usr/local/opengrok/src
 $ sudo git clone https://github.com/plotly/plotly.py.git
 $ git clone git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git
 {% endhighlight %}
@@ -176,7 +176,7 @@ $ docker run -v /usr/local/^Cengrok/src:/src -v /usr/local/opengrok/data:/data -
 By this step, the source code should be browseable on [http://localhost:8888/source/](http://localhost:8888/source/)
 ![OpenGrok Home Screen](../../assets/images/opengrok_home_screen.png)
 
-Now you can search for a specific symbol for function name. As an example: `kthreadadd`
+Now you can search for a specific symbol for function name. As an example: `kthreadd`
 ![OpenGrok Home Screen](../../assets/images/opengrok_search_function.png)
 
 One of the main features of `opengrok` is the clickable link to an exact line number in a source file. For example, [http://localhost:8888/source/xref/linux-stable/kernel/kthread.c#657](http://localhost:8888/source/xref/linux-stable/kernel/kthread.c#657). This comes in handy when referencing specific line of code over email. Also, because of the nature of `opengrok`,
